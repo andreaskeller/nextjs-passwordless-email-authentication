@@ -9,8 +9,17 @@
   "dependencies": {
     "mongodb": "^3.5.9",
     "next": "latest",
+    "next-auth": "^3.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "license": "MIT",
+  "peerOptionalDependencies": {
+    "mongodb": "^3.5.9"
+  }
 }
